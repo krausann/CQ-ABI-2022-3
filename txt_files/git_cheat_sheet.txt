@@ -1,0 +1,10 @@
+Git basic commands
+
+- git clone https://repo.git   # creates new local repository
+
+- git add file1 file2 ...   # add files from working directory to staging area
+- git status                # info about added file in staging area
+- git commit -m 'Text.'     # pushes files from staging area to local repostitory
+- git push                  # pushes files from local to remote repostitory
+    Username for 'https://github.com': name   # git account name
+    Password for 'https://name@github.com':   # add token (will not be shown)
